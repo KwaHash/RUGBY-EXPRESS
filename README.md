@@ -63,7 +63,7 @@ RUGBY-EXPRESS/
    Create a `.env` file in the root directory:
    ```env
    OPENAI_API_KEY=your_openai_api_key_here
-   PORT=3000
+   PORT=10000
    ```
 
    > **Note**: You'll need an OpenAI API key. Sign up at [OpenAI](https://platform.openai.com/) to get your API key.
@@ -79,7 +79,7 @@ RUGBY-EXPRESS/
    
    Open your browser and navigate to:
    ```
-   http://localhost:3000
+   http://localhost:10000
    ```
 
 3. **Ask questions**
@@ -145,7 +145,7 @@ The AI is configured to:
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `OPENAI_API_KEY` | Your OpenAI API key | Yes |
-| `PORT` | Server port number (default: 3000) | No |
+| `PORT` | Server port number (default: 10000) | No |
 
 ---
 
